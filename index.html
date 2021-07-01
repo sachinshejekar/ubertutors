@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Coming soon</title>
+    <style>
+        :root{
+            --theme-color: #e5b165;/* rgb(229,177,101) */
+        }
+        body {
+            background: var(--theme-color);
+            color: #fff;
+        }
+
+        @keyframes fadeIn {
+            from {top: 20%; opacity: 0;}
+            to {top: 100; opacity: 1;}  
+        }
+
+        @-webkit-keyframes fadeIn {
+            from {top: 20%; opacity: 0;}
+            to {top: 100; opacity: 1;}
+        }
+
+        .wrapper {
+            animation: fadeIn 1000ms ease;
+            -webkit-animation: fadeIn 1000ms ease;
+        }
+
+        h1 {
+            font-size: 100;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 0;
+            line-height: 1;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .dot {
+            color: #fff;
+        }
+
+        p {
+            text-align: center;
+            margin: 18px;
+            font-family: 'Muli', sans-serif;
+            font-weight: normal;
+        }
+
+        .icons {
+            text-align: center;
+        }
+        .icons a{
+            background: #fff;
+            height: 44px;
+            width: 44px;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            transition: all 200ms ease;
+            text-decoration: none;
+            position: relative;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icons i {
+            color: #00091B;    
+        }
+
+        .icons a:hover, .icons a:active {
+            color: #fff;
+            background: none;
+            cursor: pointer !important;
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            text-decoration: none;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            border-right: 4px solid #000;
+        }
+        .logo img{
+            max-width: 460px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container h-100">
+        <div class="wrapper h-100 p-3">
+            <div class="row h-100 align-items-center">
+                <div class="col-sm-4">
+                    <div class="logo">
+                            <img src="uberLogoBlack.png" alt="Logo" width="100%">
+                        </div> 
+                    </div>
+                <div class="col-sm-8 d-flex align-items-center">
+                    <div>
+                        <h1 class="mb-4">coming soon<span class="dot">.</span></h1>
+                        <div class="icons d-flex justify-content-center align-items-center">
+                            <a href="https://www.instagram.com/uber.tutors/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/ubertutors1/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/company/ubertutors/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCCEkaRRr98tNztNaq2GXEMQ?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/ubertutors1" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.tiktok.com/@ubertutors" target="_blank"><img style="width: 18px;" src="icons8-tiktok.svg" alt="icon"></a>
+                        </div>    
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>    
+    </div>
+
+</body>
+</html>
